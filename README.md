@@ -71,29 +71,25 @@ Streamlit Dashboard    FastAPI Scoring Service
 
 ```text
 FORESIGHT-PROJECT/
-|
+├── app/
+│   └── app.py
 ├── data/
 │   ├── raw/
 │   └── processed/
-|
 ├── notebooks/
-│   ├── 01_data_quality_eda_FINAL.ipynb
-│   ├── 02_baseline_forecast_FINAL.ipynb
-│   └── 03_model_risk_FINAL.ipynb
-|
+│   ├── 01_data_quality_eda.ipynb
+│   ├── 02_baseline_forecast.ipynb
+│   └── 03_model_risk.ipynb
+├── reports/
+│   ├── EDA memo.pdf
+│   └── Executive readout.pdf
+├── service/
+│   └── api.py
 ├── src/
 │   ├── pipeline.py
 │   ├── forecast.py
 │   └── risk.py
-|
-├── app/
-│   └── app.py
-|
-├── service/
-│   └── api.py
-|
-├── reports/
-|
+├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
